@@ -1,0 +1,5 @@
+== Specdoc Example Project
+
+This is a minimal example API-only rails app to demonstrate specdoc.
+
+The specdocs are in spec/specdoc

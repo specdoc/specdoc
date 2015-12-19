@@ -1,8 +1,6 @@
 # Specdoc
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/specdoc`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Specdoc -> API Blueprint -> Tooling
 
 ## Installation
 
@@ -22,7 +20,6 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Development
 
@@ -37,3 +34,22 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Thanks & Credits
+
+This gem was inspired by rspec-api-blueprint by @calderalabs, and this codebase was bootstrapped off that gem, and one of its most popular forks from  @officespacesoftware
+
+The initial reasons for starting a new project are the following:
+
+The official repo hasn't been updated in 2 years, and there are many disparate forks, so
+it would be nice to have a repository and a new name that won't point people to outdated code.
+
+The method of defining the API documentation relies on string parsing, we will offer a more explicit way to define the API blueprint, including more advanced features such as parameter options.
+
+Specdoc also takes a different approach to rspec integration, using tags to cleanly separate specdoc specs from other specs.
+
+Finally, we hope to have the project itself tested, and great documentation including the example project.
+
+# Ideas and future direction
+- Generate the Blueprint API Json format instead of the markdown format?
+-
