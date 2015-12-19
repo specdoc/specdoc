@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Specdoc lets you document code and APIs using rspec}
   spec.description   = %q{Document code and APIs with specdoc. Documentation examples stay in sync with what your code actualy does.}
   spec.homepage      = "https://specdoc.org/"
-
+  spec.licenses      = ['MIT']
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
